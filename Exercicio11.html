@@ -1,0 +1,81 @@
+<html>
+<head>
+  <title>Document</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <center>
+  <h1>Escola</h1>
+  <h2>Formulário de Pré-Matrícula</h2>
+  </center>
+  <hr>
+  <form>
+    <table border="1" style="width: 100%;" cellpadding="10px">
+      <tr>
+        <td>
+          <b>Dados Pessoais:</b>
+          <center>
+            <table>
+              <tr>
+                <td align="right">Nome do Aluno:</td>
+                <td ><input type="text" style="width: 100%;"></td>
+              </tr>
+              <tr>
+                <td align="right">Nascimento:</td>
+                <td ><input type="date"></td>
+              </tr>
+              <tr>
+                <td align="right">Nome da Mãe:</td>
+                <td ><input type="text" style="width: 100%;"></td>
+              </tr>
+              <tr>
+                <td align="right">Nome do Pai:</td>
+                <td ><input type="text" style="width: 100%;"></td>
+              </tr>
+              <tr>
+                <td align="right">Telefone:</td>
+                <td>DDD (<input type="number" size="2">) Tel:<input type="number" size="7"></td>
+                <td>Ramal <input type="number" size="5"></td>
+              </tr>
+              <tr>
+                <td align="right">Email:</td>
+                <td ><input type="email" style="width: 100%;"></td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Informações de Matrícula:</b>
+          <div style="display: flex;">
+            <div style="width: 46%;">
+              Série:<br>
+              <select><option>pré-escolar</option></select>
+            </div>
+            <div style="width: 16%;">
+              Turno:<br>
+              <input type="radio" name="rdTurno">Manhã<br>
+              <input type="radio" name="rdTurno">Tarde<br>
+            </div>
+            <div>
+              Atividades Extracurriculares:<br>
+              <input type="checkbox">Informática<br>
+              <input type="checkbox">Música<br>
+              <input type="checkbox">Balet<br>
+              <input type="checkbox">Pintura<br>
+              <input type="checkbox">Judô<br>
+              <input type="checkbox">Futebol<br>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <center>
+      <input type="submit" value="Envia Formulário">
+      <input type="reset" value="Limpa Campos">
+    </center>
+  </form>
+</body>
+</html>
